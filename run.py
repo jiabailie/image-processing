@@ -55,18 +55,14 @@ def run_graying():
     oper = Graying()
     logging.info("1. start to parse bmp file...")
     oper.parse('0_source/pirate_gray.jpeg.bmp')
+
     logging.info("2. start to process bmp file...")
     oper.graying()
+
     logging.info("3. start to write bmp file...")
     oper.generate('1_process/pirate_gray.jpeg.bmp')
 
 
 if __name__ == "__main__":
-    logging.basicConfig(
-        level=logging.INFO,
-        format='[%(asctime)s][%(filename)s][%(levelname)s]%(message)s',
-        datefmt='%Y-%m-%d %A %H:%M:%S',
-        filename="log/log.txt",
-        filemode='a')
-
+    Utils.config_log()
     run_graying()
