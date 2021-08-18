@@ -130,6 +130,7 @@ dmypy.json
 
 # System file
 .DS_Store
+.idea
 
 # Project file
 *.bmp

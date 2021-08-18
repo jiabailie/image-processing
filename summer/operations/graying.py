@@ -1,7 +1,7 @@
-from bmp.base.bmp import Bmp
+from summer.base.bmp import Bmp
 
 
-class BmpGraying(Bmp):
+class Graying(Bmp):
     def __init__(self):
         super().__init__()
 

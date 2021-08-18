@@ -1,4 +1,4 @@
-from bmp.tools.utils import Utils
+from summer.tools.utils import Utils
 
 
 class BmpFileHeader:

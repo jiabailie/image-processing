@@ -1,10 +1,10 @@
 import math
 
-from bmp.tools.utils import Utils
-from bmp.base.bmp import Bmp
+from summer.tools.utils import Utils
+from summer.base.bmp import Bmp
 
 
-class BmpRotating(Bmp):
+class Rotating(Bmp):
     def __init__(self):
         super().__init__()
 

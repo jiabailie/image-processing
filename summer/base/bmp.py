@@ -1,6 +1,6 @@
-from bmp.tools.utils import Utils
-from bmp.base.bmp_file_header import BmpFileHeader
-from bmp.base.bmp_struct_header import BmpStructHeader
+from summer.tools.utils import Utils
+from summer.base.bmp_file_header import BmpFileHeader
+from summer.base.bmp_struct_header import BmpStructHeader
 
 
 class Bmp(BmpFileHeader, BmpStructHeader):
