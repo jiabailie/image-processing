@@ -1,8 +1,8 @@
-from bmp.tools.utils import Utils
-from bmp.base.bmp import Bmp
+from summer.tools.utils import Utils
+from summer.base.bmp import Bmp
 
 
-class BmpResizing(Bmp):
+class Resizing(Bmp):
     def __init__(self):
         super().__init__()
 

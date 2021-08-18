@@ -1,9 +1,9 @@
-from bmp.tools.utils import Utils
+from summer.tools.utils import Utils
 
 
 class BmpStructHeader:
     def __init__(self):
-        self.biSize = Utils.i_to_bytes(0, 4)  # bmpheader size
+        self.biSize = Utils.i_to_bytes(0, 4)  # bmp header size
         self.biWidth = Utils.i_to_bytes(0, 4)
         self.biHeight = Utils.i_to_bytes(0, 4)
         self.biPlanes = Utils.i_to_bytes(0, 2)  # default 1

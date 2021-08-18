@@ -1,9 +1,8 @@
-from bmp.tools.utils import Utils
-from bmp.tools.data import MAX_PIXEL_VALUE
-from bmp.base.bmp import Bmp
+from summer.tools.data import MAX_PIXEL_VALUE
+from summer.base.bmp import Bmp
 
 
-class BmpTransform(Bmp):
+class Transform(Bmp):
     def __init__(self):
         super().__init__()
 

@@ -1,13 +1,12 @@
-from bmp.tools.utils import Utils
-from bmp.base.bmp import Bmp
+from summer.base.bmp import Bmp
 
 
-class BmpDisplay(Bmp):
+class Display(Bmp):
     def __init__(self):
         super().__init__()
 
     def display_rgb(self):
-        out_file_path = "/Users/yangruiguo/Documents/image-lab/script/part3/1_process/pirate.txt"
+        out_file_path = "1_process/pirate.txt"
         with open(out_file_path, "w") as out:
             for i in range(0, self.height):
                 for j in range(0, self.width):
